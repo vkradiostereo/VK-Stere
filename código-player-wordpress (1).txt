@@ -1,0 +1,18 @@
+<div class="iframe-container">
+  <iframe src="https://radio.studiobala.com.br/" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<style>
+  .iframe-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Define a altura para 100% da altura da viewport */
+    overflow: hidden;
+  }
+
+  .iframe-container iframe {
+    position: absolute;
+    width: 100%;
+    height:100%;
+  }
+</style>
